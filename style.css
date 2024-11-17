@@ -18,6 +18,8 @@ nav {
     justify-content: space-between;
     padding: 20px 5%;
     background-color: #d76eb1;
+    align-items: baseline;
+    margin-left:10px;
 }
 
 nav .heading {
@@ -174,6 +176,7 @@ a {
 @media screen and (max-width: 600px) {
     .side1 h1 {
         font-size: 35px;
+        margin-left: 30px;
     }
 
     .line {
@@ -220,15 +223,19 @@ section .topic img {
 }
 
 .content .title {
-    width: 80%;
+    width: 100%;
     text-align: center;
     font-weight: bolder;
     font-size: 40px;
 }
 
 .title {
-    margin-bottom: 30px;
-    margin-left: 80px;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactMenu {
